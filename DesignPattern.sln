@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDesignPattern", "..\SingletonDesignPattern\SingletonDesignPattern.csproj", "{48361D3E-54C7-4E34-957B-32B6DCCAEAD3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDesignPattern", "BuilderDesignPattern\BuilderDesignPattern.csproj", "{1251C4D1-3DA6-4142-A4F4-CC841BACDE31}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodDesignPattern", "FactoryMethodDesignPattern\FactoryMethodDesignPattern.csproj", "{216311C9-7858-4F6C-B1F6-1A6EF32FAD2A}"
@@ -13,16 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterDesignPattern", "Ada
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorDesignPattern", "DecoratorDesignPattern\DecoratorDesignPattern.csproj", "{8CA45BA6-BD2A-428B-9286-B7B202E9E301}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDesignPattern", "SingletonDesignPattern\SingletonDesignPattern.csproj", "{006BA222-9D67-4646-82C6-15016FCBE49B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{48361D3E-54C7-4E34-957B-32B6DCCAEAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48361D3E-54C7-4E34-957B-32B6DCCAEAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48361D3E-54C7-4E34-957B-32B6DCCAEAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48361D3E-54C7-4E34-957B-32B6DCCAEAD3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1251C4D1-3DA6-4142-A4F4-CC841BACDE31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1251C4D1-3DA6-4142-A4F4-CC841BACDE31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1251C4D1-3DA6-4142-A4F4-CC841BACDE31}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{8CA45BA6-BD2A-428B-9286-B7B202E9E301}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CA45BA6-BD2A-428B-9286-B7B202E9E301}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CA45BA6-BD2A-428B-9286-B7B202E9E301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006BA222-9D67-4646-82C6-15016FCBE49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006BA222-9D67-4646-82C6-15016FCBE49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006BA222-9D67-4646-82C6-15016FCBE49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006BA222-9D67-4646-82C6-15016FCBE49B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
